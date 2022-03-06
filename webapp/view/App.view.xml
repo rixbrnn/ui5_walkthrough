@@ -2,15 +2,7 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
     <Shell backgroundImage="images/cats.jpeg" backgroundOpacity="0.5">
-        <App class="myAppDemoWT">
-            <pages>
-                <Page title="{i18n>homePageTitle}">
-                    <content>
-                        <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
-                        <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
-                    </content>
-                </Page>
-            </pages>
+        <App class="myAppDemoWT" id="app">
         </App>
     </Shell>
 </mvc:View>
